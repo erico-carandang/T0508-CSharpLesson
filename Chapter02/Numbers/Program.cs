@@ -6,7 +6,8 @@ namespace Numbers
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("********************************************************");
+            Console.WriteLine("");
             Console.WriteLine("SAMPLE CODE #1:");
             Console.WriteLine("");
 
@@ -45,11 +46,12 @@ namespace Numbers
             Console.WriteLine("");
             Console.WriteLine("********************************************************");
             Console.WriteLine("");
-            Console.WriteLine("SAMPLE CODE #3:")
+            Console.WriteLine("SAMPLE CODE #3:");
             Console.WriteLine("");
 
             Console.WriteLine("Using doubles:");
-            double a = 0.1;double b = 0.2;
+            double a = 0.1;
+            double b = 0.2;
             if (a + b == 0.3)
             {  
                 Console.WriteLine($"{a} + {b} equals 0.3");
